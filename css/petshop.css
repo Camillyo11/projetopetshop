@@ -140,6 +140,7 @@ h2{
 
 .galeria{
 
+<<<<<<< HEAD
     margin: 20 px;
     padding: 0;
 
@@ -152,5 +153,8 @@ footer{
     justify-content: center;
     align-items: center;
     height: 25px;
+=======
+    margin: 5px;
+>>>>>>> 646449c56e30df7d8db250cdc4df10607fed75f1
 
 }
