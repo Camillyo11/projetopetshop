@@ -1,4 +1,4 @@
-*{
+s*{
     margin: 0;
     padding: 0;
 }
@@ -32,8 +32,6 @@ nav li{
     background-image: url(../img/patinha-preta.png);
     background-repeat: no-repeat;
     background-position: center right;
-
-
 }
 
 nav a{
@@ -47,6 +45,30 @@ nav a{
 
 }
 
+form{
+    width:380px ;
+}
+
+form input,form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+iframe{
+    width: 100%;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+
+
 /*Estilo Especificos IDS */
 
 #itemcontato{
@@ -54,6 +76,11 @@ nav a{
     padding-right:0; 
     margin-right:0;
 }
+
+#produto .flex-conteiner, #contato .flex-conteiner{
+    margin-top: 43px;
+}
+
 
  .fundo-verde{
     background-color: #bdff9c;
@@ -64,15 +91,11 @@ nav a{
     width: 900px;
     margin: 0 auto;
     padding: 56px 0;
-
-
 }
 
 .flex-conteiner{
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .flex-conteiner .col{
@@ -80,4 +103,58 @@ nav a{
     
 }
 
+.produto{
+    width:235px;
 
+}
+
+.produto figure{
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin:0 0 15px 10px ;
+    padding:0 ;
+    text-align: center;
+    height: 160px;
+    line-height: 160px ;
+
+}
+
+.produto figure img{
+    vertical-align: middle;
+
+}
+
+.text-centralizado{
+    text-align:center;
+}
+
+.btn-pata{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+}
+
+.galeria{
+
+    margin: 20 px;
+    padding: 0;
+
+
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bdff9c;
+
+
+}
+.rodape{
+    text-align: center;
+}
