@@ -140,6 +140,10 @@ h2{
 
 .galeria{
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 475e0fe05c58fe469dbf8d7130db0a9f8f5a0c6a
     margin: 20 px;
     padding: 0;
 
@@ -151,10 +155,18 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     background-color: #bdff9c;
 
 
 }
 .rodape{
     text-align: center;
+=======
+    height: 25px;
+=======
+    margin: 5px;
+>>>>>>> 646449c56e30df7d8db250cdc4df10607fed75f1
+
+>>>>>>> 475e0fe05c58fe469dbf8d7130db0a9f8f5a0c6a
 }
